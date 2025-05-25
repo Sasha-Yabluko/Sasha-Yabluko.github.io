@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background-color:burlywood;
+    height: 80px;
+}
+
+.AboutMe{
+    background-color: blueviolet;
+    width: 100%;
+    height: 320px;
+    font-size: 25px;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.header .content{
+    padding-top: 20px;
+    height: 70px;
+    width: 90%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.menu{
+    float: right;
+    height: 50px;
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.menu li a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.contentColumns{
+    background-color: brown;
+    width: 100%;
+    max-width: 1290px;
+    height: 391px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column{
+    background-color: chartreuse;
+    width: 400px;
+    height: 380px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
